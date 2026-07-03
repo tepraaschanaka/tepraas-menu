@@ -2,7 +2,6 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: white;
-
     background: url("images/pizza-bg.jpg") no-repeat center center/cover;
 }
 
@@ -72,13 +71,13 @@ h1 {
     text-decoration: none;
 }
 
-/* SECTION */
+/* SECTIONS */
 .section {
     padding: 60px 20px;
     text-align: center;
 }
 
-/* CARD */
+/* CARDS */
 .card {
     background: rgba(0,0,0,0.6);
     margin: 15px auto;
@@ -88,7 +87,7 @@ h1 {
     border: 1px solid gold;
 }
 
-/* WHATSAPP FLOAT */
+/* FLOAT BUTTONS */
 .whatsapp-float {
     position: fixed;
     bottom: 20px;
@@ -96,7 +95,6 @@ h1 {
     width: 60px;
     height: 60px;
     background: #25D366;
-    color: white;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -105,28 +103,18 @@ h1 {
     text-decoration: none;
 }
 
-/* FOOTER */
-footer {
-    text-align: center;
-    padding: 20px;
-    background: rgba(0,0,0,0.7);
-    border-top: 2px solid gold;
-}
 .call-float {
     position: fixed;
     bottom: 90px;
     right: 20px;
     width: 55px;
     height: 55px;
-    background: #d4af37;
+    background: gold;
     color: black;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
-    text-decoration: none;
-    z-index: 1000;
 }
 
 .map-float {
@@ -135,13 +123,18 @@ footer {
     right: 20px;
     width: 55px;
     height: 55px;
-    background: #ff4d4d;
+    background: red;
     color: white;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
-    text-decoration: none;
-    z-index: 1000;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.7);
+    border-top: 2px solid gold;
 }
