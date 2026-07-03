@@ -5,75 +5,97 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TEPRAAS Smart Menu</title>
 
-<style>
-body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#0b3d2e;
-    color:white;
-    text-align:center;
-}
-
-.header{
-    padding:40px 20px;
-}
-
-h1{
-    color:#d4af37;
-    font-size:40px;
-}
-
-h2{
-    color:white;
-}
-
-.button{
-    display:block;
-    width:220px;
-    margin:20px auto;
-    padding:15px;
-    background:#d4af37;
-    color:#0b3d2e;
-    text-decoration:none;
-    font-size:22px;
-    border-radius:10px;
-    font-weight:bold;
-}
-
-.footer{
-    margin-top:40px;
-    padding:20px;
-}
-</style>
-
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<div class="header">
+<!-- HEADER -->
+<header>
+  <div class="logo">TEPRAAS</div>
+  <p class="tagline">Sigiriya • Luxury Dining Experience</p>
 
-<h1>TEPRAAS</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#pizza">Pizza</a>
+    <a href="#appetizers">Appetizers</a>
+    <a href="#pasta">Pasta</a>
+    <a href="#beverages">Drinks</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-<h2>Sigiriya</h2>
+<!-- HOME -->
+<section id="home" class="section home">
+  <h1>Welcome to TEPRAAS</h1>
+  <p>Fresh • Authentic • Delicious</p>
+  <a href="#pizza" class="btn">Explore Menu</a>
+</section>
 
-<p>Experience Fine Dining</p>
+<!-- PIZZA -->
+<section id="pizza" class="section">
+  <h2>🍕 Pizza Menu</h2>
 
-<a class="button" href="#">🍕 Pizza</a>
+  <div class="card">
+    <h3>Marinara Pizza</h3>
+    <p>Rs. 3300</p>
+  </div>
 
-<a class="button" href="#">🍝 Pasta</a>
+  <div class="card">
+    <h3>Margherita Pizza</h3>
+    <p>Rs. 2900</p>
+  </div>
 
-</div>
+  <div class="card">
+    <h3>Sausages Pizza</h3>
+    <p>Rs. 3000</p>
+  </div>
 
-<div class="footer">
+  <div class="card">
+    <h3>Cuttlefish Pizza</h3>
+    <p>Rs. 3200</p>
+  </div>
 
-<p>📞 0741999166</p>
+  <div class="card">
+    <h3>TEPRAAS Special</h3>
+    <p>Rs. 3150</p>
+  </div>
+</section>
 
-<p>📍 Kibissa, Digampathaha, Sigiriya</p>
+<!-- APPETIZERS -->
+<section id="appetizers" class="section">
+  <h2>🥗 Appetizers</h2>
+  <div class="card">Devilled Chicken</div>
+  <div class="card">Fried Calamari</div>
+</section>
 
-<p>📧 info@tepraas.com</p>
+<!-- PASTA -->
+<section id="pasta" class="section">
+  <h2>🍝 Pasta Corner</h2>
+  <div class="card">Spaghetti Bolognese</div>
+  <div class="card">Spaghetti Carbonara</div>
+  <div class="card">Sea Marinara</div>
+</section>
 
-</div>
+<!-- DRINKS -->
+<section id="beverages" class="section">
+  <h2>🥤 Beverages</h2>
+  <div class="card">Fresh Juices</div>
+  <div class="card">Soft Drinks</div>
+  <div class="card">Coffee & Tea</div>
+</section>
 
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>📍 Contact Us</h2>
+  <p>TEPRAAS Sigiriya</p>
+  <p>Call / WhatsApp: +94 XXX XXX XXX</p>
+</section>
+
+<footer>
+  <p>© 2026 TEPRAAS Restaurant</p>
+</footer>
+
+<script src="js/script.js"></script>
 </body>
 </html>
-
