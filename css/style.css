@@ -1,40 +1,89 @@
 body {
-  margin: 0;
-  font-family: Arial;
-  background: #0b3d2e;
-  color: white;
-  text-align: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b3d2e;
+    color: white;
 }
 
 header {
-  background: #06281e;
-  padding: 20px;
+    background: #06281e;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #d4af37;
 }
 
-.logo {
-  color: #d4af37;
-  font-size: 40px;
-  font-weight: bold;
+.logo img {
+    height: 80px;
+    width: auto;
+}
+
+.tagline {
+    color: #d4af37;
+    font-size: 14px;
+    margin-top: 5px;
 }
 
 nav a {
-  color: white;
-  margin: 10px;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 nav a:hover {
-  color: #d4af37;
+    color: #d4af37;
 }
 
 .section {
-  padding: 40px;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.home {
+    padding: 100px 20px;
+}
+
+.home h1 {
+    font-size: 48px;
+    color: #d4af37;
+}
+
+.home p {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #d4af37;
+    color: #06281e;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: white;
 }
 
 .card {
-  background: #145c45;
-  margin: 10px auto;
-  padding: 15px;
-  max-width: 300px;
-  border-radius: 10px;
+    background: #145c45;
+    margin: 15px auto;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 15px;
+    border: 1px solid #d4af37;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+footer {
+    background: #06281e;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #d4af37;
 }
