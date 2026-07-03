@@ -112,3 +112,36 @@ footer {
     background: rgba(0,0,0,0.7);
     border-top: 2px solid gold;
 }
+.call-float {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    background: #d4af37;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: none;
+    z-index: 1000;
+}
+
+.map-float {
+    position: fixed;
+    bottom: 160px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    background: #ff4d4d;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: none;
+    z-index: 1000;
+}
