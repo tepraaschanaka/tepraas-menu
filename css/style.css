@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0b3d2e;
+  color: white;
+  text-align: center;
+}
+
+header {
+  background: #06281e;
+  padding: 20px;
+}
+
+.logo {
+  color: #d4af37;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #d4af37;
+}
+
+.section {
+  padding: 40px;
+}
+
+.card {
+  background: #145c45;
+  margin: 10px auto;
+  padding: 15px;
+  max-width: 300px;
+  border-radius: 10px;
+}
